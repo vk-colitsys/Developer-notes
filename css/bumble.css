@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { 
+    font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display : block;
+	background-color:#FFFF00;
+}
+
+a:link{
+	color:#000;
+	}
+	
+#wrapper {
+	margin : 0 auto;
+	width : 700px;
+	text-align : center;
+	display : block;
+}
+
+#header {
+	height : 100px;
+	width : 520px;
+}
+
+#content {
+	text-align : left;
+	display : block;
+	color:#000;
+}
+
+#formcontainer ol {
+	margin : 10px;
+	padding : 0;
+	color:#000;
+}
+
+#formcontainer ol li {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+	float : left;
+	width : 100%;
+}
+
+#formcontainer legend {
+	font-size : 1.1em;
+	font-weight : bold;
+}
+
+#formcontainer fieldset {
+	border : none;
+}
+
+#formcontainer ol li.textarea {
+	clear : both;
+}
+
+#formcontainer ol li.textarea label {
+	display : none;
+}
+
+#formcontainer ol li.textarea textarea {
+	width : 500px;
+	height : 250px;
+}
+
+
+#notecontainer {
+	margin : 20px;
+}
+
+#scrolldiv{
+	background-color:#000;
+	overflow: auto;
+	height: 400px;
+	width: 500px;
+}
+
+#notebox{
+	background-color:#FFFF00;
+	border:1px dashed #000;
+	width:500px;
+}
+	
+
